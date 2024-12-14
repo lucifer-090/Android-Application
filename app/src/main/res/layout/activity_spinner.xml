@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpinnerActivity">
+
+    <TextView
+        android:id="@+id/textCountry"
+        android:layout_width="142dp"
+        android:layout_height="35dp"
+        android:text="Country"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/selectCountry"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/selectText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Selected Country:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textSize="20sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/AutoCompleteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City" />
+
+    <EditText
+        android:id="@+id/editTextDatee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" />
+
+</LinearLayout>
